@@ -104,7 +104,7 @@ const LandingPage = () => {
         } 
         else if(isError) {
             return (
-                <div className="grid md:grid-cols-3 items-start px-16 py-20">
+                <div className="grid md:grid-cols-3 items-start px-5 lg:pl-24 py-20">
                     <div className="text-white w-full max-w-xl mx-auto my-20 p-2 flex flex-col space-y-10">
                         <h1 className="text-6xl text-start">
                             Attendene Percentage Calculator
@@ -185,7 +185,7 @@ const LandingPage = () => {
         }
         else {
             return (
-                <div className="grid md:grid-cols-3 items-start px-5 py-20">
+                <div className="grid md:grid-cols-3 items-start px-5 lg:pl-24 py-20">
                     <div className="text-white w-full max-w-xl mx-auto my-20 p-2 flex flex-col space-y-10">
                         <h1 className="text-6xl text-start">
                             Attendene Percentage Calculator
